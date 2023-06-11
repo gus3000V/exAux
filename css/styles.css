@@ -1,0 +1,103 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.banner {
+   background-image: url("../img/tms.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+   height: 100vh;
+   
+}
+header{
+   display: flex;
+   width: 100%;
+    position: absolute;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+}
+header .logo{
+   position: relative;
+   margin: 3%;
+   margin: 30px;
+}
+nav{
+   justify-content: right;
+   text-align: right;
+   position: relative ;
+  margin: 40px;
+}
+nav > a{
+   color: #b4b4b4;
+   font-weight: 300;
+   text-decoration: none;
+   margin-right: 10px;
+   
+}
+nav > a:hover{
+    
+   text-decoration: underline;
+   color: aliceblue;
+  
+}
+.centro{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   height:  500px;
+   padding-left: 50px;
+   padding-top: 40px;
+   justify-content: space-evenly;
+   position: relative;
+   align-items: center;
+}
+.centro-info{
+   position: absolute;
+}
+.centro img{
+   padding:0px;
+   position: relative
+}
+.centro .box
+{
+   display: flex;
+   margin-bottom: auto;
+   text-align: center;
+   padding-top: 10px;
+   
+}
+.centro .box>button{
+   margin-right: 50px;
+  
+   padding:7px 25px;
+   text-decoration: none;
+   color: #fff;
+   background-color: #0c0c0c2d;
+   border-radius: 5px;
+   border: 0;
+   
+}
+.centro .box>button:hover{
+   
+   background-color: #f00c0cec;
+   
+}
+.info{
+   color: #bebebe;
+  
+}
+.texto{
+   color: #fff;
+}
+.info p{
+   margin: 7px 0px  17px;
+}
+.info span{
+   background-color: red;
+   color: #fff;
+   margin-left: 5px;
+}
